@@ -1,0 +1,1 @@
+<div class="text--single"><?php the_content(); ?></div>

@@ -1,0 +1,253 @@
+@charset "UTF-8";
+.card {
+  margin-bottom: 30px;
+  background: transparent;
+  border: none;
+}
+.card :hover {
+  box-shadow: 0px 0px 5px 0px rgba(86, 92, 96, 0.4);
+}
+
+.card-body :hover, .card-title :hover, .card-text--img :hover {
+  border: none;
+  box-shadow: none;
+}
+
+img.card-img-top {
+  width: 100%;
+  min-height: 6vw;
+  height: 195px;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.card-title, .card-title a, .card-title p {
+  color: rgba(35, 34, 33, 0.734);
+  text-align: center;
+  text-decoration: none;
+  margin: 7px auto !important;
+  font-size: 1em;
+}
+
+.col-card {
+  margin-bottom: 30px;
+}
+
+.col-lg-3, .col-md-6 {
+  margin-bottom: 20px;
+}
+
+.card-text a {
+  display: block;
+  text-align: center;
+}
+
+p.card-text {
+  display: block;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.card-text--img {
+  display: block;
+  margin: 5px auto;
+}
+
+.wrapper {
+  margin: 20px 0;
+}
+
+.container {
+  width: 70%;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.vinyetka img {
+  display: block;
+  margin: 0 auto;
+}
+
+.bell_top_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bell_top_left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sidebar {
+  box-shadow: -5px 0px 5px -4px rgba(86, 92, 96, 0.4);
+}
+
+.tag-cloud-link {
+  color: darkgrey;
+}
+
+a {
+  text-decoration: none;
+  color: DarkGoldenRod;
+}
+
+ol, ul {
+  list-style: none;
+  padding-left: 1em;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.col-md-6 p {
+  display: inline;
+  opacity: 0.8;
+}
+
+.text--single {
+  text-align: center;
+  padding: 30px 10px;
+  line-height: 1.8;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-size: 1em;
+}
+
+.text--single::first-letter {
+  text-align: center;
+  font-size: 2.1em;
+  line-height: 1;
+}
+
+/* текст стихотворений */
+.single_col {
+  position: relative;
+}
+
+.bg-light, .wp-block-search__input {
+  background: transparent !important;
+}
+
+.wp-block-search__input {
+  border: 1px solid #ccc;
+  min-width: 130px;
+  width: 130px;
+  padding: 10px;
+}
+
+.wp-block-search__label {
+  display: none;
+}
+
+.wp-block-search__button, .wp-element-button {
+  min-width: 50px;
+  width: 50px !important;
+  height: 41px;
+}
+
+.wp-block-search__inside-wrapper {
+  margin-bottom: 20px !important;
+}
+
+.d-flex {
+  padding-left: 1em;
+}
+
+.breadcrumb span[property=name]:hover {
+  max-width: none;
+}
+
+.breadcrumb_12 {
+  font-size: 1em;
+  color: #282828;
+  margin: 25px auto;
+}
+.breadcrumb_12 a {
+  color: #181c1f;
+}
+
+/* убираем заголовок стартовой */
+.page-id-2092 .post_title_page {
+  display: none;
+}
+
+.list_cat a {
+  color: #000;
+}
+
+.list_cat a:hover {
+  color: #0a58ca;
+}
+
+ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.author__article-title {
+  margin-left: 50px !important;
+  margin-top: 50px;
+}
+
+.single_col {
+  margin-top: 50px;
+}
+
+.wp-block-heading {
+  visibility: hidden;
+}
+
+.category_anons {
+  margin-bottom: 50px;
+}
+
+.navbar {
+  width: 70%;
+  margin: 0 auto;
+  background: transparent !important;
+}
+
+.menu-item {
+  font-size: 1.2em;
+  line-height: 2;
+  padding: 2px 20px;
+  padding-right: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.bg-light, .navbar, .navbar-expand-lg, .navbar-light {
+  background: transparent !important;
+}
+
+.post_title_page {
+  color: #000;
+  font-size: 1.5em;
+  margin-bottom: 35px;
+}
+
+.post_title {
+  color: #000;
+  font-size: 1em;
+  line-height: 2;
+}
+
+a.post_title {
+  text-decoration: none;
+}
+
+body {
+  background-image: url("/wp-content/themes/poems_one/app/img/fon_main.jpg");
+  font-family: "Palatino Linotype", "Times New Roman", serif;
+}

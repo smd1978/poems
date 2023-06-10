@@ -1,0 +1,6 @@
+/*
+Theme Name: Poems_one
+*/
+@import url("app/css/style.css");
+
+.breadcrumb span[property="name"]:hover {max-width: none}
