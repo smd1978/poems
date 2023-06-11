@@ -15,7 +15,9 @@
                         the_post(); ?>
                     <!-- post -->
                     <div class="col-md-12">
-                        <a class = "post_title" href="<?php the_permalink(); ?>"><?php the_title()?></a> 
+                    
+                    <?php $category = get_the_category();?>
+                    <div class = "span"><?php echo $category[0]->cat_name;?></div><a class = "post_title" href="<?php the_permalink(); ?>"><?php the_title()?></a> 
                     </div>
 
                 <?php

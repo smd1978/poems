@@ -1,9 +1,12 @@
+.card-text--img
+    opacity: .6
 .card    
     margin-bottom: 30px
     background: transparent
     border: none
     :hover
-        box-shadow: 0px 0px 5px 0px rgba(86, 92, 96, 0.4)
+        .card-text--img
+            opacity: 1
 
 .card-body, .card-title, .card-text--img
     :hover
@@ -23,6 +26,13 @@ img.card-img-top
     text-decoration: none
     margin: 7px auto !important
     font-size: 1em
+
+h5.card-title p a
+    color: #000
+    font-size: 110%
+
+.description
+    opacity: .7
 
 .col-card
     margin-bottom: 30px

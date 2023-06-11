@@ -1,11 +1,15 @@
 @charset "UTF-8";
+.card-text--img {
+  opacity: 0.6;
+}
+
 .card {
   margin-bottom: 30px;
   background: transparent;
   border: none;
 }
-.card :hover {
-  box-shadow: 0px 0px 5px 0px rgba(86, 92, 96, 0.4);
+.card :hover .card-text--img {
+  opacity: 1;
 }
 
 .card-body :hover, .card-title :hover, .card-text--img :hover {
@@ -27,6 +31,15 @@ img.card-img-top {
   text-decoration: none;
   margin: 7px auto !important;
   font-size: 1em;
+}
+
+h5.card-title p a {
+  color: #000;
+  font-size: 110%;
+}
+
+.description {
+  opacity: 0.7;
 }
 
 .col-card {
@@ -96,9 +109,9 @@ img {
   color: darkgrey;
 }
 
-a {
+a, h5 {
   text-decoration: none;
-  color: DarkGoldenRod;
+  color: #000;
 }
 
 ol, ul {
@@ -113,7 +126,17 @@ p {
 
 .col-md-6 p {
   display: inline;
-  opacity: 0.8;
+  opacity: 0.7;
+  font-size: 90%;
+}
+
+.span {
+  display: inline-block;
+  opacity: 1;
+  padding-right: 5px;
+}
+.span:after {
+  content: " - ";
 }
 
 .text--single {
@@ -173,6 +196,7 @@ p {
   font-size: 1em;
   color: #282828;
   margin: 25px auto;
+  box-shadow: 0px 3px 3px -2px rgba(86, 92, 96, 0.4);
 }
 .breadcrumb_12 a {
   color: #181c1f;
