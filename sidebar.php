@@ -29,7 +29,7 @@
     <ul>
     <?php if ( function_exists('wp_tag_cloud') ){
 
-	wp_tag_cloud('smallest=8&largest=22');
+	wp_tag_cloud('smallest=8&largest=17');
 } ; ?>
 </ul>
 </div>
